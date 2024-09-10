@@ -29,10 +29,10 @@ public class QuestionService {
 
         }
 
-        for(String s:selection ){
-            System.out.println(s);
-        }
-    }
+//        for(String s:selection ){
+//            System.out.println(s);
+//        }
+ }
 
     public void calculateScore(){
         int score=0;
