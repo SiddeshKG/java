@@ -37,6 +37,9 @@ public class JdbcFetch {
             {
                 System.out.println(res.getInt(1) + " " + res.getString(2) + " " + res.getInt(3));
             }
+            res.close();
+            st.close();
+            con.close();
 
         } catch (ClassNotFoundException |SQLException e) {
             throw new RuntimeException(e);

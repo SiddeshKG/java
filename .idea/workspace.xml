@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="data fetch is done with metadata" />
+    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="data fetch is done with metadata">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JdbcFetch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcFetch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,18 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SiddeshKG"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SiddeshKG&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SiddeshKG/java",
-    "accountId": "1519f5e1-f0c8-42e8-bc10-4dd61a77ff81"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SiddeshKG/java&quot;,
+    &quot;accountId&quot;: &quot;1519f5e1-f0c8-42e8-bc10-4dd61a77ff81&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,9 +54,10 @@
   "keyToString": {
     "Application.JdbcConn.executor": "Run",
     "Application.JdbcFetch.executor": "Run",
+    "Application.JdbcInsert.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "JDBC-fetch",
+    "git-widget-placeholder": "JDBC-insert",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/sidde/Downloads/postgresql-42.7.4.jar",
     "onboarding.tips.debug.path": "D:/leetcode/JDBC/src/main/java/org/example/Main.java",
