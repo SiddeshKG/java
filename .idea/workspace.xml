@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="completing till execute querry">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JdbcFetch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcFetch.java" afterDir="false" />
-    </list>
+    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="data fetch is done with metadata" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,13 +86,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726669089008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="data fetch is done with metadata">
+      <option name="closed" value="true" />
+      <created>1726839776871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726839776871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working on new insert port 5432" />
     <MESSAGE value="completing till execute querry" />
-    <option name="LAST_COMMIT_MESSAGE" value="completing till execute querry" />
+    <MESSAGE value="data fetch is done with metadata" />
+    <option name="LAST_COMMIT_MESSAGE" value="data fetch is done with metadata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
