@@ -38,8 +38,9 @@ public class JdbcInsert {
                 pt.setString(2, sname);
                 pt.setInt(3, Marks);
 
-                pt.execute();
+                pt.addBatch();
             }
+            pt.executeBatch();
             con.commit();
             System.out.println("querry executed successfully");
 //            Statement st = con.createStatement();
@@ -47,7 +48,7 @@ public class JdbcInsert {
 //            st.addBatch(querry);
 //            st.addBatch(querry2);
 //            st.addBatch(querry3);
-////batches are created to same number of hard disk hit while executing querry
+////batches are created to save number of hard disk hit while executing querry
 //            st.executeBatch();
 //           // st.execute(querry);
             pt.close();
