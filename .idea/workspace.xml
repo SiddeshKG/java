@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="working on insert">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="insert">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JdbcInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727781570323</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="insert">
+      <option name="closed" value="true" />
+      <created>1728032796171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728032796172</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,7 +121,8 @@
     <MESSAGE value="completing till execute querry" />
     <MESSAGE value="data fetch is done with metadata" />
     <MESSAGE value="working on insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on insert" />
+    <MESSAGE value="insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

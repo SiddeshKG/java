@@ -50,6 +50,9 @@ public class JdbcInsert {
 ////batches are created to same number of hard disk hit while executing querry
 //            st.executeBatch();
 //           // st.execute(querry);
+            pt.close();
+            con.close();
+
         }
         catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
