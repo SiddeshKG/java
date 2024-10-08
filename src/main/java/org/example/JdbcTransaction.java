@@ -26,12 +26,14 @@ public class JdbcTransaction {
             pstmt.setInt(2,pin);
 
             ResultSet res1=pstmt.executeQuery();
-            res1.next();
-
-            String name = res1.getString(4);
-            int balance = res1.getInt(3);
-            System.out.println("welcome : "+name+" "+"available balance is : "+balance);
-
+            if(res1.next()) {
+                String name = res1.getString(4);
+                int balance = res1.getInt(3);
+                System.out.println("welcome : " + name + " " + "available balance is : " + balance);
+            }
+            else {
+                System.out.println("Error: Invalid account number or PIN.");
+            }
 
 
         } catch (ClassNotFoundException | SQLException e) {
