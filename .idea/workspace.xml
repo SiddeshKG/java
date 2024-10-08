@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="insert">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JdbcInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcInsert.java" afterDir="false" />
+    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="insert is done with adding batch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="JDBC" />
+        <entry key="$PROJECT_DIR$" value="JDBC-insert" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,9 +54,10 @@
     "Application.JdbcConn.executor": "Run",
     "Application.JdbcFetch.executor": "Run",
     "Application.JdbcInsert.executor": "Run",
+    "Application.JdbcTransaction.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "JDBC-insert",
+    "git-widget-placeholder": "JDBC-Update(bank)",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/sidde/Downloads/postgresql-42.7.4.jar",
     "onboarding.tips.debug.path": "D:/leetcode/JDBC/src/main/java/org/example/Main.java",
@@ -113,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728032796172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="insert">
+      <option name="closed" value="true" />
+      <created>1728276713126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728276713126</updated>
+    </task>
+    <task id="LOCAL-00007" summary="insert is done with adding batch">
+      <option name="closed" value="true" />
+      <created>1728290899300</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728290899300</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,7 +140,8 @@
     <MESSAGE value="data fetch is done with metadata" />
     <MESSAGE value="working on insert" />
     <MESSAGE value="insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert" />
+    <MESSAGE value="insert is done with adding batch" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert is done with adding batch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
