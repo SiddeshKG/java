@@ -32,7 +32,7 @@ public class JdbcTransaction {
                 System.out.println("welcome : " + name + " " + "available balance is : " + balance);
             }
             else {
-                System.out.println("Error: Invalid account number or PIN.");
+                System.out.println("please enter valid account number or PIN.");
             }
 
 
