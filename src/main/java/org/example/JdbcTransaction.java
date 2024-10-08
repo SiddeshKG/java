@@ -16,9 +16,9 @@ public class JdbcTransaction {
             Connection con = DriverManager.getConnection(url,User,pwd);
             System.out.println("<-----Welcome to Bank----->");
             Scanner sc = new Scanner(System.in);
-            System.out.println("enter account numer");
+            System.out.println("enter account number");
              int acc_num = sc.nextInt();
-            System.out.println("pelase enter pin");
+            System.out.println("please enter pin");
             int pin = sc.nextInt();
 
             PreparedStatement pstmt = con.prepareStatement(querry1);
