@@ -8,8 +8,7 @@ public class JdbcTransaction {
         String url ="jdbc:postgresql://localhost:5432/demo";
         String User ="postgres";
         String pwd ="Siab@2528";
-        String querry1 ="SELECT * FROM public.account\n" +
-                "where acc_num = ? and pin = ?";
+        String querry1 ="SELECT * FROM public.account where acc_num = ? and pin = ?";
 
         try {
             Class.forName("org.postgresql.Driver");
