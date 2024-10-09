@@ -13,7 +13,9 @@ public class JdbcTransaction {
 
         try {
             Class.forName("org.postgresql.Driver");
+
             Connection con = DriverManager.getConnection(url,User,pwd);
+            con.setAutoCommit(false); // Start transaction
             System.out.println("<-----Welcome to Bank----->");
             Scanner sc = new Scanner(System.in);
             System.out.println("enter account number");
@@ -35,6 +37,52 @@ public class JdbcTransaction {
                 System.out.println("please enter valid account number or PIN.");
             }
 
+            //Transaction details from senders bank
+
+            System.out.println("enter receiver bank account details");
+            int b_acc=sc.nextInt();
+            System.out.println("enter transfer amount");
+            int t_amt =sc.nextInt();
+
+
+            System.out.println("please enter transaction pin");
+            int t_pin = sc.nextInt();
+
+            String query2 = "SELECT * FROM public.account WHERE t_pin = ?";
+
+            PreparedStatement pstmt2= con.prepareStatement(query2);
+            pstmt2.setInt(1,t_pin);
+                ResultSet res2=pstmt2.executeQuery();
+
+            String query3 = "UPDATE public.account SET balance = balance - ? WHERE acc_num = ?";
+            if(res2.next()){
+                PreparedStatement pstmt3 = con.prepareStatement(query3);
+                pstmt3.setInt(1,t_amt);
+                pstmt3.setInt(2,acc_num); //sender's acc number
+                pstmt3.executeUpdate();
+
+                String query5 = "UPDATE public.account SET balance = balance + ? WHERE acc_num = ?";
+                PreparedStatement pstmt5 = con.prepareStatement(query5);
+                pstmt5.setInt(1, t_amt);
+                pstmt5.setInt(2, b_acc); // Receiver's account number
+                pstmt5.executeUpdate();
+
+                String query4 = "SELECT balance FROM public.account WHERE acc_num = ?";
+                // Get and display sender's balance
+                PreparedStatement pstmt4 = con.prepareStatement(query4);
+                    pstmt4.setInt(1,acc_num);
+                ResultSet resBal =pstmt4.executeQuery();
+                if(resBal.next()){
+                int bal =resBal.getInt("balance");
+
+                System.out.println("your existing balance : " +bal);
+}
+                con.commit();
+                System.out.println("transaction successful");
+            }
+            else {
+                System.out.println("invalid transaction pin");
+            }
 
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);

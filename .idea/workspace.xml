@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="fetech account details is done">
+    <list default="true" id="c5076377-9ad7-400d-9d20-06986a9160fd" name="Changes" comment="spelling">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JdbcTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcTransaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +139,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728377115565</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fetech account details is done">
+      <option name="closed" value="true" />
+      <created>1728377391349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728377391349</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fetech account details is done">
+      <option name="closed" value="true" />
+      <created>1728377441875</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728377441875</updated>
+    </task>
+    <task id="LOCAL-00011" summary="spelling">
+      <option name="closed" value="true" />
+      <created>1728377614596</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728377614596</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,7 +174,8 @@
     <MESSAGE value="insert" />
     <MESSAGE value="insert is done with adding batch" />
     <MESSAGE value="fetech account details is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetech account details is done" />
+    <MESSAGE value="spelling" />
+    <option name="LAST_COMMIT_MESSAGE" value="spelling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
