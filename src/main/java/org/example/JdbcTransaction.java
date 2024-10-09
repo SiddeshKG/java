@@ -79,6 +79,13 @@ public class JdbcTransaction {
 }
                 con.commit();
                 System.out.println("transaction successful");
+                pstmt4.close();
+                pstmt3.close();
+                pstmt2.close();
+                pstmt.close();
+                res2.close();
+                res1.close();
+                con.close();
             }
             else {
                 System.out.println("invalid transaction pin");
@@ -87,6 +94,7 @@ public class JdbcTransaction {
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }
+
 
     }
 }
