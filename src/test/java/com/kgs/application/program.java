@@ -25,7 +25,7 @@ public class program {
              //create transaction
             Transaction transaction = session.beginTransaction();
             //CRUD operation
-            Student s1 = new Student(3, "mori", "mori@gmail.com");
+            Student s1 = new Student(1, "mori", "mori@gmail.com");
 //            Serializable id = (Serializable) session.save(s1);
 //            System.out.println(id);
             session.persist(s1);
