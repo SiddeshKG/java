@@ -1,9 +1,22 @@
 package com.kgs.model;
 
-public class student {
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Entity
+@Table(name = "student")
+public class Student {
+
+    @Id
+    @Column(name = "roll")
     private int roll_num;
+
+    @Column(name = "student_name")
     private String name;
+    @Column(name = "email")
+    private String email;
 
     public void setRoll_num(int roll_num) {
         this.roll_num = roll_num;
@@ -29,9 +42,9 @@ public class student {
         return email;
     }
 
-    private String email;
 
-    public student(int roll_num, String name, String email) {
+
+    public Student(int roll_num, String name, String email) {
         this.roll_num = roll_num;
         this.name = name;
         this.email = email;
