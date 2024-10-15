@@ -33,8 +33,12 @@ public class program {
             transaction.commit();
         }
         finally {
-            session.close();
-            sessionFactory.close();
+            if (session != null) {
+                session.close();
+            }
+            if (sessionFactory != null) {
+                sessionFactory.close();
+            }
         }
     }
 }
