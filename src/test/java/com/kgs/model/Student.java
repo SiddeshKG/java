@@ -17,6 +17,8 @@ public class Student {
     private String name;
     @Column(name = "email")
     private String email;
+    private int marks;
+
 
     public void setRoll_num(int roll_num) {
         this.roll_num = roll_num;
@@ -43,10 +45,30 @@ public class Student {
     }
 
 
+    public int getMarks() {
+        return marks;
+    }
 
-    public Student(int roll_num, String name, String email) {
+    public void setMarks(int marks) {
+        this.marks = marks;
+    }
+    public Student() {
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "roll_num=" + roll_num +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+
+    public Student(int roll_num, String name, String email, int marks) {
         this.roll_num = roll_num;
         this.name = name;
         this.email = email;
+        this.marks = marks;
     }
 }
