@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae0e30f2-4815-428f-aefb-f88c9d0f7fee" name="Changes" comment="staretd spring with xml file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ae0e30f2-4815-428f-aefb-f88c9d0f7fee" name="Changes" comment="staretd spring with xml file and scopes">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Allien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Allien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
@@ -79,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730875367989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="staretd spring with xml file and scopes">
+      <option name="closed" value="true" />
+      <created>1733219482616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733219482616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="staretd spring with xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="staretd spring with xml file" />
+    <MESSAGE value="staretd spring with xml file and scopes" />
+    <option name="LAST_COMMIT_MESSAGE" value="staretd spring with xml file and scopes" />
   </component>
 </project>

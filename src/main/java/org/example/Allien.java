@@ -2,7 +2,17 @@ package org.example;
 
 public class Allien {
 
-   int age;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        System.out.println("setter is called");
+        this.age = age;
+    }
+
     public Allien(){
         System.out.println("object created.... ");
     }
